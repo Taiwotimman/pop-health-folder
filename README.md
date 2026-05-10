@@ -22,26 +22,6 @@
 
 ---
 
-## 🗂 Project Structure
-
-```
-population-health-dashboard/
-├── data/
-│   ├── generate_data.py        # Synthetic EHR dataset generator (n=2,000)
-│   ├── analysis.py             # Logistic regression + equity analysis
-│   ├── population_health_data.csv
-│   ├── model_results.json      # Model performance + feature importances
-│   ├── equity_report.json      # Stratified disparity analysis
-│   └── summary_stats.json      # Dashboard KPIs
-├── sql/
-│   └── population_health_queries.sql  # 8 production-grade analytics queries
-├── dashboard/
-│   └── index.html              # Interactive surveillance dashboard
-└── README.md
-```
-
----
-
 ## 🔬 Key Findings
 
 ### Readmission Landscape
@@ -80,28 +60,6 @@ SDOH burden is a **3.2× multiplier** on readmission risk from lowest to highest
 3. Number of comorbidities: OR = 1.45
 4. Length of stay: OR = 1.39
 5. Medicaid insurance: OR = 1.26
-
----
-
-## ⚙️ Reproducing the Analysis
-
-### Requirements
-```bash
-pip install pandas numpy scikit-learn
-```
-
-### Run
-```bash
-# Step 1 — Generate dataset
-cd data/
-python generate_data.py
-
-# Step 2 — Run full analysis (logistic regression + equity + KPIs)
-python analysis.py
-
-# Step 3 — Open dashboard
-open ../dashboard/index.html
-```
 
 ---
 

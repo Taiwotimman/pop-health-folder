@@ -1,6 +1,6 @@
-# 🏥 Population Health Readmission Risk Intelligence
+# 🏥 Population Health Readmission Risk
 
-> A full-stack population health analytics project demonstrating readmission risk modelling, health equity stratification, SDOH analysis, and interactive surveillance dashboards — built for AI evaluation and public health informatics roles.
+> A full-stack population health analytics project demonstrating readmission risk modelling, health equity stratification, SDOH analysis, and interactive surveillance dashboards.
 
 **Author:** Taiwo Tobi Omoyeni · Health Data Analyst & Population Health Informaticist  
 **Stack:** Python · SQL · scikit-learn · Chart.js · ICD-10 · SDOH Framework

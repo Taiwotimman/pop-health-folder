@@ -9,7 +9,8 @@
 
 ## 📊 Live Dashboard
 
-Open `dashboard/index.html` in your browser for the full interactive surveillance dashboard — no server required.
+**[https://taiwotimman.github.io/pop-health-folder](https://taiwotimman.github.io/pop-health-folder)**
+
 
 ### Dashboard Sections:
 | Tab | Contents |
